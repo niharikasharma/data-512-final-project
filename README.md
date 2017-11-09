@@ -94,7 +94,7 @@ Approach 4: There are other simpler algorithms, like co-occurrence matrix, marke
 
 Approach 5: Hybrid Approach -  The amalgamation of Collaborative filtering and content-based approach is called a hybrid approach. It is very powerful technique as it takes advantages from both the approaches and eliminates the disadvantages like the cold-start problem, data sparsity. 
  
-Methodology (what you will do with the data (e.g. statistical analysis, train a model))
+### Methodology (what you will do with the data (e.g. statistical analysis, train a model))
 1. Data Cleaning
     Rounding the Data
     Normalizing Ratings
@@ -112,7 +112,7 @@ Methodology (what you will do with the data (e.g. statistical analysis, train a 
       Cosine Distance, or  
       Pearson Correlation  
 
-### Expected Outcome (what results you expect or intend)
+### Expected Outcome (what results we expect or intend)
 
 In this project, I will build 4 different recommender engines based on different ideas and algorithms which would give us personalized results, the way Amazon and Netflix does. They are as follows:  
 Simple Recommender: Using experimental designing techniques and filtering build movie charts by genre, performance, longest run time and other features.  
@@ -122,7 +122,7 @@ Hybrid Engine: Combining the content and collaborative filtering approach will 
 
 Also, taking into consideration the Reproducibility in recommender system research, I will try to keep the features flexible to other datasets as well, so that the same approach could be applied to another movie recommender dataset.  
 
-### Relevance of the project (why your project is interesting or important (and to whom, besides yourself))
+### Relevance of the project (why our project is interesting or important (and to whom, besides ourself))
 The key reason why many big companies seem to care about recommender systems is money as they generate significant engagement and revenue. But, Advertisements biases the recommendation on platforms like Amazon, Netflix, IMDB, TMDB, Spotify etc. Hence, using the traditional approaches, we will build an unbiased recommender system for people to select movies. 
 Also, building a recommender system is a true data science problem. It is a true representation and intersection between software engineering, machine learning, and statistics as building it requires all these skills. 
 
