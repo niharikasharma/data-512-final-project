@@ -1,10 +1,9 @@
 # data-512-final-project
-Final Project for Data:512 | University of Washington 
+Final Project for Data:512 | University of Washington   
+Niharika Sharma
 
-## A3: Final project plan
-## Niharika Sharma
-
-## Movies Recommender System using tradition approaches
+### A3: Final project plan
+### Movies Recommender System using tradition approaches
 
 ### Project Proposal
 In this project, we will build 4 different recommender system approaches based on different ideas and algorithms which would give us personalized results, the way Amazon and Netflix do it. The motivation behind this idea is that advertisements biases the recommendation on platforms like Amazon/ Netflix, IMDb, TMDb, etc. Hence, using the traditional approaches, we will build an unbiased recommender system to give a personalized recommendation to users.
@@ -14,54 +13,54 @@ We have taken the dataset from Kaggle datasets - https://www.kaggle.com/rounakba
 
 movies_metadata.csv:  Contains information on 45,000 movies featured in the Full MovieLens dataset[7]. 
 Fields in movies_metadata.csv include:
-adult 
-belongs_to_collection 
-budget  
-genres  
-homepage 
-id  
-imdb_id  
-original_language  
-original_title 
-overview 
-popularity 
-poster_path 
-production_companies 
-production_countries 
-release_date 
-revenue 
-runtime 
-spoken_languages 
-status 
-tagline 
-title 
-video 
-vote_average 
-vote_count 
+adult   
+belongs_to_collection   
+budget    
+genres    
+homepage   
+id    
+imdb_id    
+original_language    
+original_title   
+overview   
+popularity   
+poster_path   
+production_companies   
+production_countries   
+release_date   
+revenue   
+runtime   
+spoken_languages   
+status   
+tagline   
+title   
+video  
+vote_average   
+vote_count   
 
 keywords.csv: Consists the movie plot keywords for our MovieLens movies. 
-Fields in keywords.csv include:
-Id 
-Keywords 
+Fields in keywords.csv include: 
+Id  
+Keywords  
 
 credits.csv: Contains Cast and Crew Information. 
-Fields in credits.csv include:
-Cast 
-Crew 
-Id 
+Fields in credits.csv include:  
+Cast   
+Crew   
+Id   
 
 links_small.csv: Contains the TMDB and IMDB IDs of a small subset of 9,000 movies of the Full Dataset.
-Fields in links_small.csv include:
-movieId 
-imdbId 
-tmdbId 
-
+Fields in links_small.csv include:  
+movieId   
+imdbId   
+tmdbId   
+ 
 ratings_small.csv: Consist of rating for movies by anonymous users. The subset of 100,000 ratings from 700 users on 9,000 movies.
-Fields in ratings_small.csv include:
-userId 
-movieId 
-rating  
-timestamp 
+Fields in ratings_small.csv include:  
+userId   
+movieId   
+rating    
+timestamp   
 
 Released Under CC0: Public Domain 
 License link: https://creativecommons.org/publicdomain/zero/1.0/
@@ -103,25 +102,25 @@ Methodology (what you will do with the data (e.g. statistical analysis, train a 
 2. Feature Engineering
 
 3. Model training and testing
-    We will deploy 4 approaches:
-    1. Simple Recommender,
-    2. Content-Based Recommender,
-    3. Collaborative Filtering, and
-    4. Hybrid Engine
-    For measuring the similarity, we will use the following measures:
-    1. Jaccard Distance, 
-    2. Cosine Distance, or
-    3. Pearson Correlation
+    We will deploy 4 approaches:   
+    a. Simple Recommender,   
+    b. Content-Based Recommender,  
+    c. Collaborative Filtering, and  
+    d. Hybrid Engine  
+      For measuring the similarity, we will use the following measures:    
+      Jaccard Distance,   
+      Cosine Distance, or  
+      Pearson Correlation  
 
 ### Expected Outcome (what results you expect or intend)
 
-In this project, I will build 4 different recommender engines based on different ideas and algorithms which would give us personalized results, the way Amazon and Netflix does. They are as follows:
-Simple Recommender: Using experimental designing techniques and filtering build movie charts by genre, performance, longest run time and other features.
-Content-Based Recommender: Using movies textual, categorical and nominal metadata like taglines, cast, crew, genre, and keywords will predict similar movies. 
-Collaborative Filtering: Using, either item-item CF or user-user CF built a similarity matrix for predicting the movie ratings by users.
-Hybrid Engine: Combining the content and collaborative filtering approach will build an engine that will give movie suggestions to users based on the predicted ratings internally calculated for that user. 
+In this project, I will build 4 different recommender engines based on different ideas and algorithms which would give us personalized results, the way Amazon and Netflix does. They are as follows:  
+Simple Recommender: Using experimental designing techniques and filtering build movie charts by genre, performance, longest run time and other features.  
+Content-Based Recommender: Using movies textual, categorical and nominal metadata like taglines, cast, crew, genre, and keywords will predict similar movies.   
+Collaborative Filtering: Using, either item-item CF or user-user CF built a similarity matrix for predicting the movie ratings by users.  
+Hybrid Engine: Combining the content and collaborative filtering approach will build an engine that will give movie suggestions to users based on the predicted ratings internally calculated for that user.   
 
-Also, taking into consideration the Reproducibility in recommender system research, I will try to keep the features flexible to other datasets as well, so that the same approach could be applied to another movie recommender dataset. 
+Also, taking into consideration the Reproducibility in recommender system research, I will try to keep the features flexible to other datasets as well, so that the same approach could be applied to another movie recommender dataset.  
 
 ### Relevance of the project (why your project is interesting or important (and to whom, besides yourself))
 The key reason why many big companies seem to care about recommender systems is money as they generate significant engagement and revenue. But, Advertisements biases the recommendation on platforms like Amazon, Netflix, IMDB, TMDB, Spotify etc. Hence, using the traditional approaches, we will build an unbiased recommender system for people to select movies. 
