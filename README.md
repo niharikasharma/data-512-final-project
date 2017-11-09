@@ -94,7 +94,7 @@ Approach 4: There are other simpler algorithms, like co-occurrence matrix, marke
 
 Approach 5: Hybrid Approach -  The amalgamation of Collaborative filtering and content-based approach is called a hybrid approach. It is very powerful technique as it takes advantages from both the approaches and eliminates the disadvantages like the cold-start problem, data sparsity. 
  
-### Methodology (what you will do with the data (e.g. statistical analysis, train a model))
+### Methodology (what we will do with the data (e.g. statistical analysis, train a model))
 1. Data Cleaning
     Rounding the Data
     Normalizing Ratings
