@@ -39,7 +39,7 @@ vote_average
 vote_count   
 
 keywords.csv: Consists the movie plot keywords for our MovieLens movies. 
-Fields in keywords.csv include: 
+Fields in keywords.csv include:   
 Id  
 Keywords  
 
@@ -101,7 +101,7 @@ Approach 5: Hybrid Approach -  The amalgamation of Collaborative filtering and c
 
 2. Feature Engineering
 
-3. Model training and testing
+3. Model training and testing  
     We will deploy 4 approaches:   
     a. Simple Recommender,   
     b. Content-Based Recommender,  
@@ -123,7 +123,8 @@ Hybrid Engine: Combining the content and collaborative filtering approach will 
 Also, taking into consideration the Reproducibility in recommender system research, I will try to keep the features flexible to other datasets as well, so that the same approach could be applied to another movie recommender dataset.  
 
 ### Relevance of the project (why our project is interesting or important (and to whom, besides ourself))
-The key reason why many big companies seem to care about recommender systems is money as they generate significant engagement and revenue. But, Advertisements biases the recommendation on platforms like Amazon, Netflix, IMDB, TMDB, Spotify etc. Hence, using the traditional approaches, we will build an unbiased recommender system for people to select movies. 
+The key reason why many big companies seem to care about recommender systems is money as they generate significant engagement and revenue. But, Advertisements biases the recommendation on platforms like Amazon, Netflix, IMDB, TMDB, Spotify etc. Hence, using the traditional approaches, we will build an unbiased recommender system for people to select movies.   
+
 Also, building a recommender system is a true data science problem. It is a true representation and intersection between software engineering, machine learning, and statistics as building it requires all these skills. 
 
 ### References
