@@ -14,7 +14,7 @@ By doing this project we compared and predicted the subjective characteristics o
 In conclusion, recommender systems need a deeper understanding of users and their information seeking tasks to be able to generate better recommendations[10]. 
 
 ### Data 
-We have taken the dataset from Kaggle datasets - https://www.kaggle.com/rounakbanik/the-movies-dataset. The dataset consists of the following files:
+We have taken the dataset from Kaggle datasets - https://www.kaggle.com/rounakbanik/the-movies-dataset. The dataset consists of multiple files but we are using the following files:
 
 movies_metadata.csv:  Contains information on 45,000 movies featured in the Full MovieLens dataset[7]. 
 Fields in movies_metadata.csv include:
