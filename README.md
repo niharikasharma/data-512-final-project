@@ -10,7 +10,7 @@ From our research project, we tried to build 2 recommendation algorithms from sc
 
 2. Why should a user trust that the algorithm understands who they are, what they like and what they are doing?
 
-By doing this project we compared and predicted the subjective characteristics of recommendation algorithm. We find that the recommendations from collaborative filtering approach are quite diverse and fresh, whereas the recommendations from content-based approach are quite the opposite. It depends on the requirement of the users and what kind of recommendations they would like. Moreover, whatever recommendation we provide to the user, the two key important factors to keep in mind is awareness and explanation of the recommendations. Let the users be aware of how we are adapting to their tastes and make it clear that we are not recommending movies/items because it suits our business needs, but because it matches the information we have from them: their explicit taste preferences and ratings, their viewing history.
+By doing this project we compared and predicted the subjective characteristics of recommendation algorithm. We found that the recommendations from collaborative filtering approach are diverse and fresh, whereas the recommendations from content-based approach are quite the opposite. It depends on the requirement of the users and what kind of recommendations they would like. Moreover, whatever recommendation we provide to the user, the two key important factors to keep in mind is awareness and explanation of the recommendations. Let the users be aware of how we are adapting to their tastes and make it clear that we are not recommending movies/items because it suits our business needs, but because it matches the information we have from them: their explicit taste preferences and ratings, and their viewing history.
 In conclusion, recommender systems need a deeper understanding of users and their information seeking tasks to be able to generate better recommendations[10]. 
 
 ### Data 
@@ -64,6 +64,7 @@ License link: https://creativecommons.org/publicdomain/zero/1.0/
 ### Introduction and background on Recommendation algorithms - 
 
 What are Recommender Systems?
+
 Recommender Systems are widely used and have a variety of definitions. For instance,
 1. A recommender system is a subclass of information filtering system that seeks to predict the "rating" or "preference" that a user would give to an item. [1]  
 2. Recommendation engines are the software that suggests what we should watch or read or listen to next. They help us deal with the millions of choices the Web offers. [2] 
@@ -92,21 +93,21 @@ Approach 5: Hybrid Approach -  The amalgamation of Collaborative filtering and c
 
 In this project, we have built 2 different recommender engines based on different ideas and algorithms which would give us personalized results. They are as follows:  
 Content-Based Recommender: Using movies taglines and overview feature.   
-Collaborative Filtering: Using, either item-item CF built a similarity matrix for predicting the movies for users.
+Collaborative Filtering: Using item-item CF built a similarity matrix for predicting the movies for users.
 
-The Jupyter notebook that contains both our written report, our code and findings related to the hypothesis mentioned in the abstract.
+The Jupyter notebook contains our written report, our code and findings related to the hypothesis mentioned in the abstract.
 
 Also, taking into consideration the reproducibility of the code, I have tried to keep the features and variables flexible, so that the same approach could be applied to another movie recommender dataset.  
 
-### Relevance of the project (why our project is interesting or important (and to whom, besides ourself))
-The fundamental reason why many companies seem to care about recommender systems is for money and business as they generate significant user engagement and revenue. But, Advertisements biases the recommendation on platforms like Amazon, Netflix, IMDB, TMDB, Spotify etc. Hence, using the traditional approaches, we will build an unbiased recommender system for people to select movies.   
-Building a recommender system is a true data science problem. It is a true representation and intersection between software engineering, machine learning, and statistics as building it requires all these skills. 
+### Relevance of the project (why our project is interesting or important)
+The fundamental reason why many companies seem to care about recommender systems is for money and business as they generate significant user engagement and revenue. But, advertisements biases the recommendation on platforms like Amazon, Netflix, IMDB, TMDB, Spotify etc. Hence, using the traditional approaches, we will build an unbiased recommender system for people to select movies.   
+Building a recommender system is a true data science problem. It is a true representation and intersection between software engineering, machine learning, statistics and human centered aspects as building it requires all these skills. 
 
 
 ## Reproducibility 
 For running and replicating the results and algorithm, install all the packages correctly as mentioned in the Jupyter Notebook and run the Jupyter Notebook.
 
-You can use a larger dataset or a different dataset but make sure that the column name and column type remains the same. Any other change in the new data set might reduce the chances of reproducibility. 
+You can use a larger dataset or a different dataset but make sure that the column name and column type remains the same. Any other change in the new dataset might reduce the chances of reproducibility. 
 
 
 ## Known issues or special considerations with the data
