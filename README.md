@@ -60,6 +60,8 @@ timestamp
 Released Under CC0: Public Domain 
 License link: https://creativecommons.org/publicdomain/zero/1.0/
 
+### License for this project
+MIT License (https://opensource.org/licenses/MIT)
 
 ### Introduction and background on Recommendation algorithms - 
 
