@@ -96,7 +96,7 @@ Collaborative Filtering: Using, either item-item CF built a similarity matrix fo
 
 The Jupyter notebook that contains both our written report, our code and findings related to the hypothesis mentioned in the abstract.
 
-Also, taking into consideration the Reproducibility in recommender system research, I have tried to keep the features and variables flexible, so that the same approach could be applied to another movie recommender dataset.  
+Also, taking into consideration the reproducibility of the code, I have tried to keep the features and variables flexible, so that the same approach could be applied to another movie recommender dataset.  
 
 ### Relevance of the project (why our project is interesting or important (and to whom, besides ourself))
 The fundamental reason why many companies seem to care about recommender systems is for money and business as they generate significant user engagement and revenue. But, Advertisements biases the recommendation on platforms like Amazon, Netflix, IMDB, TMDB, Spotify etc. Hence, using the traditional approaches, we will build an unbiased recommender system for people to select movies.   
